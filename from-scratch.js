@@ -42,6 +42,7 @@ const getEvenNumbers = (nums) => {
 const getLargestNumber = (numbers) => {
   return numbers.sort()
 };
+// Not finished
 // console.log(getLargestNumber(sampleNumbers));
 
 /* -------------------------------------------------- */
@@ -66,13 +67,14 @@ const printUserNamesAndScores = (users) => {
 const getUserNames = (users) => {
   return users.map((user) => user.name)
 };
-console.log(getUserNames(sampleUsers));
+// console.log(getUserNames(sampleUsers));
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
-
+  return users.map((user) => user !== user.age < 30 && user.isActive === true)
 };
-
+// Not finished
+// console.log(getActiveUsersUnder30(sampleUsers));
 
 // Problem 9
 const getTotalScore = (users) => {
