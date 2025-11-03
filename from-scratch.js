@@ -60,13 +60,13 @@ const sampleUsers = [
 const printUserNamesAndScores = (users) => {
   return users.forEach((user) => console.log(`${user.name} scored ${user.score} points.`))
 };
-printUserNamesAndScores(sampleUsers);
+// printUserNamesAndScores(sampleUsers);
 
 // Problem 7
 const getUserNames = (users) => {
-
+  return users.map((user) => user.name)
 };
-
+console.log(getUserNames(sampleUsers));
 
 // Problem 8
 const getActiveUsersUnder30 = (users) => {
