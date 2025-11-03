@@ -78,10 +78,10 @@ const getActiveUsersUnder30 = (users) => {
 
 // Problem 9
 const getTotalScore = (users) => {
-
+// Use array.reduce
 };
 
 // Problem 10
 const sortUsersByScoreDescending = (users) => {
-
+// Use array.sort
 };
