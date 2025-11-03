@@ -12,12 +12,13 @@ const sampleWords = ['dog', 'blueberry', 'alabama', 'earth', 'football'];
 const printEveryWord = (words) => {
   return words.forEach((word) => console.log(word))
 };
-printEveryWord(sampleWords)
+// printEveryWord(sampleWords)
 
 // Problem 2
 const getStringLengths = (strings) => {
-
+  return strings.forEach((string) => console.log(string.length))
 };
+// (getStringLengths(sampleWords));
 
 // Problem 3
 const sortWordsZtoA = (words) => {
