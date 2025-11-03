@@ -22,9 +22,10 @@ const getStringLengths = (strings) => {
 
 // Problem 3
 const sortWordsZtoA = (words) => {
-
+  return words.sort()
 };
-
+sortWordsZtoA(sampleWords);
+console.log(sampleWords);
 /* -------------------------------------------- */
 /* --------------NUMBER PROBLEMS--------------- */
 /* -------------------------------------------- */
